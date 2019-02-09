@@ -18,8 +18,8 @@
         <div class="row">
             <div class="col-md-1"></div>
             <div class="col-md-10">
-                    <div class="jumbotron">
-                            <h1 class="display-4 text-center">Train Scheduler!</h1>
+                    <div class="jumbotron bg-info">
+                            <h1 class="display-4 text-center text-light jumbo-text">Train Scheduler!</h1>
                             </div>
             </div>
             <div class="col-md-1"></div>
@@ -33,7 +33,7 @@
             <div class="col-md-10">
                 <div class="card">
                     <div class="card-header bg-info text-light">
-                        <h3>Current Train Schedule</h3>
+                        <h3 class="text-center card-head-text">Current Train Schedule</h3>
                         </div>
                         <div class="card-body">
                             <table class="table">
@@ -43,6 +43,7 @@
                                     <th>Frequency (min)</th>
                                     <th>Next Arrival</th>
                                     <th>Minutes Away</th>
+                                    <th></th>
                                 </tr>
                             </table>
                         
@@ -60,6 +61,9 @@
             <div class="col-md-10">
                 <div class="card">
                     <div class="card-header bg-info">
+                        <h3 class="text-center text-light card-head-text">Add a Train</h3>
+                    </div>
+                    <div class="card-body bg-secondary">
                         <div class="card-body">
                     <form>
                             <div class="form-group">
@@ -78,7 +82,7 @@
                                 <label for="frequency" class="text-light">Frequency (min)</label>
                                 <input type="text" class="form-control" id="frequency">
                             </div>
-                            <button type="button" id="button" class="btn btn-primary bg-dark">Submit</button>
+                            <button type="button" id="button" class="btn btn-primary bg-info">Submit</button>
                           </form>
 
             </div>
